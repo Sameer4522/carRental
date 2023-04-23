@@ -1,4 +1,4 @@
-import { url } from "inspector";
+// prettier-ignore
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -10,13 +10,13 @@ export default {
   theme: {
     extend: {},
     backgroundImage: {
-      bookingbg: "linear-gradient(180deg,#f8f8f8 20%,#fff 80%)",
-      bookingImgBg: "url('./src/assets/booking-bg.png')",
-      chooseBg: "url('./src/assets/choose-section-bg.png')",
-      downloadBg: "url('./src/assets/download-bg.png')",
-      herosBg: "url('./src/assets/heroes-bg.png')",
-      bookbannerbg: "url('./src/assets/book-banner.png')",
-      contactBg: "url('./src/assets/bg-contact.png')",
+      'bookingbg': "linear-gradient(180deg,#f8f8f8 20%,#fff 80%)",
+      'bookingImgBg': "url('./src/assets/booking-bg.png')",
+      'chooseBg': "url('./src/assets/choose-section-bg.png')",
+      'downloadBg': "url('./src/assets/download-bg.png')",
+      'herosBg': "url('./src/assets/heroes-bg.png')",
+      'bookbannerbg': "url('./src/assets/book-banner.png')",
+      'contactBg': "url('./src/assets/bg-contact.png')",
     },
   },
   plugins: [],
