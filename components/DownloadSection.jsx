@@ -7,7 +7,7 @@ const DownloadSection = () => {
   return (
     <section
       id="downloadSection"
-      className="h-auto w-full bg-[#f8f8f8] bg-cover bg-top bg-no-repeat py-24 md:bg-downloadBg"
+      className="h-auto w-full bg-[#f8f8f8] bg-cover bg-top bg-no-repeat py-24 md:bg-[url('./src/assets/download-bg.png')]"
     >
       <Wrapper>
         <div className="poppins flex max-w-[33rem] flex-col gap-4 text-center font-bold md:text-left">
